@@ -123,3 +123,12 @@ footer {
 form {
   font-family: 'Piazzolla', serif;
 }
+
+@media screen and (max-device-width: 600px) {
+  .logo {
+    padding: 0.1ch;
+  }
+  nav {
+    font-size: 1rem;
+  }
+}
