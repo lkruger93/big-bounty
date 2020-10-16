@@ -29,6 +29,7 @@ h1 {
 
 .logo {
   width: 3vw;
+  height: 10vh;
   padding: 1ch;
  
 }
@@ -125,9 +126,7 @@ form {
 }
 
 @media screen and (max-device-width: 600px) {
-  .logo {
-    padding: 0.1ch;
-  }
+  
   nav {
     font-size: 1rem;
   }
