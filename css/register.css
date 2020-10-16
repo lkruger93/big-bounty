@@ -18,6 +18,10 @@ fieldset {
 
 /*a lot similar to login page */
 
+fieldset {
+  font-size: 1.5rem;
+}
+
 .text-fields p {
   display: flex;
   width: 30vw;
