@@ -34,3 +34,24 @@
     border: 1px solid black;
   }
 }
+
+/* did two media queries because just doing one wouldnt affect the screen of one, had to do two to affect both desktop and mobile small screens */
+
+@media (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2ch;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    margin-bottom: 5vw;
+  }
+
+ 
+  .grid-container img {
+    width: 80vw;
+    border: 1px solid black;
+  }
+}
