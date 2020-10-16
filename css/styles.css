@@ -128,6 +128,6 @@ form {
 @media screen and (max-device-width: 600px) {
   
   nav {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
