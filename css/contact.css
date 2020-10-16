@@ -76,6 +76,15 @@ button:focus {
 
 /*media queries so the pictures at the top go single column when in mobile */
 
+@media screen and (max-device-width: 600px) {
+  .contactimage {
+    width: 80vw;
+  }
+  .contactinfo {
+    display: block;
+  }
+}
+
 @media (max-width: 600px) {
   .contactimage {
     width: 80vw;
