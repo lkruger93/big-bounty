@@ -31,6 +31,8 @@ fieldset {
 form {
   width: 40ch;
   margin: auto;
+  
+  font-size: 1.5rem;
 }
 
 .text-fields p {
