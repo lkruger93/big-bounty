@@ -1,0 +1,86 @@
+
+.contactimage {
+  color: midnightblue;
+  width: 27vw;
+}
+
+/*wanted images at top to look tidy and equal*/
+
+figure {
+  margin: 3vw;
+}
+
+.contactinfo {
+  display: flex;
+  justify-content: space-between;
+
+  color: midnightblue;
+  font-family: 'Piazzolla', serif;
+}
+
+fieldset {
+  border: none;
+  margin: auto;
+
+  font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+/* wanted to make the form centred and look pretty */
+
+form {
+  width: 40ch;
+  margin: auto;
+}
+
+.text-fields p {
+  display: flex;
+}
+
+.text-fields p label {
+  width: 11ch;
+}
+
+.text-fields p input {
+  flex: 1;
+}
+
+.text-fields button {
+  margin-left: 20ch;
+}
+
+/*made button pretty much the same for all pages with button */
+
+button {
+  background-color: midnightblue;
+  color: white;
+  border: 1px solid white;
+
+  margin-bottom: 2ch;
+
+  padding: 2ch;
+  border-radius: 20%;
+}
+
+button:hover {
+  background-color: white;
+  color: midnightblue;
+  border: 1px solid midnightblue;
+  font-weight: bold;
+
+}
+
+button:focus {
+  border: 1px solid midnightblue;
+}
+
+/*media queries so the pictures at the top go single column when in mobile */
+
+@media (max-width: 600px) {
+  .contactimage {
+    width: 80vw;
+  }
+  .contactinfo {
+    display: block;
+  }
+}

@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+
+  display:flex;
+  flex-direction: column;
+}
+
+/*all the nav stuff is shared for every page */
+
+nav {
+  display: flex;
+  font-family: 'Piazzolla', serif;
+
+  background-color: midnightblue;
+}
+
+.header {
+   margin-right: auto;
+  padding-left: 2rem;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+}
+
+/* made svg file for the logo! */
+
+.logo {
+  width: 3vw;
+  padding: 1ch;
+ 
+}
+
+nav ul li{
+  list-style-type: none;
+  padding-right: 2ch;
+  flex: auto;
+  margin: auto;
+ 
+}
+
+/*for the links in the nav*/
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  margin-right:1ch;
+}
+
+/*made entire div for hero section midnightblue so wouldnt have to do twice for h2 and p */
+
+.opener {
+  color: midnightblue;
+  background-image: url(../images/horselooking.jpg);
+  background-size: cover;
+
+  padding-bottom: 60vh;
+  padding-top: 10vh;
+
+}
+
+/*making a separate class for the register link for it to look like a button and change colours when hovering */
+
+.register {
+  background-color: lavender;
+  padding: 1ch;
+
+ 
+  border-radius: 2px;
+
+  color:midnightblue;
+}
+
+/*add hover thing for register so it behaves more like a button */
+
+.register:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*ended up using the greetings and hello class thing a lot due to making the beginning of most pages similar */
+
+.greetings {
+  font-family: 'Piazzolla', serif;
+  margin-left:10vw;
+ color: midnightblue;
+}
+
+.hello {
+  font-family: 'Hind Siliguri', sans-serif;
+  margin-left:10vw;
+}
+
+/*footer also the same for every page */
+
+footer {
+  text-align: center;
+  
+  
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+
+  background-color: midnightblue;
+  color: white;
+
+  font-family: 'Piazzolla', serif;
+}
+
+/*wanted the font on all the forms to be the same so did it in the main styles sheet */
+
+form {
+  font-family: 'Piazzolla', serif;
+}

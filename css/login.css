@@ -1,0 +1,59 @@
+fieldset {
+  border: none;
+  color: black;
+
+  font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+/*originally wanted to put image beside forms for both login and register forms but couldn't figure out how, so did background image instead */
+
+/*same kind of div as register to get the background image on whole body */
+
+.biglogin {
+  color:white;
+  padding-bottom: 40vh;
+
+  background-image: url(../images/supercute.jpg);
+  background-size: cover;
+}
+
+.text-fields p {
+  display: flex;
+  width: 30vw;
+}
+
+.text-fields p label {
+  width: 16ch;
+}
+
+.text-fields p input {
+  flex: 1;
+  
+}
+
+.text-fields button {
+  margin-left: 20ch;
+}
+
+button {
+  background-color: midnightblue;
+  color: white;
+  border: 1px solid white;
+
+  margin-bottom: 2ch;
+
+  padding: 2ch;
+  border-radius: 20%;
+}
+
+button:hover {
+  background-color:white;
+  color: midnightblue;
+  border: 1px solid midnightblue;
+
+  margin-bottom: 2ch;
+
+  padding: 2ch;
+  border-radius: 20%;
+}
